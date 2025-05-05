@@ -30,7 +30,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/api/v1/', form);
+      const res = await axios.post('/api/v1/login', form);
       toast.success('Login successfully!');
       localStorage.setItem('token', res.data.token);
       

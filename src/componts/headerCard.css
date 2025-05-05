@@ -1,0 +1,80 @@
+.card{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.input{
+    width: 300px;
+    height: 30px;
+}
+.all{
+   
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.search-icon {
+    position: fixed;
+    left: 420px;
+    top: 7px;
+    color: wheat;
+  }
+  .input-group{
+    position: relative;
+    width: 250px;
+  }
+  .input-group .icon{
+    position: absolute;
+    top: 50%;
+    left: 220px;
+    transform: translateY(-50%);
+    color: gray;
+
+  }
+  .input-group input{
+width: 350px;
+
+
+
+  }
+
+
+  .menu-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dots {
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  .menu-list {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 1000;
+  }
+  
+  .menu-list li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .menu-list li:hover {
+    background-color: #f0f0f0;
+  }
+  .dots{
+    color: white;
+    font-weight: 500;
+  }
